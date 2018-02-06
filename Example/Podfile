@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GGSuperImages_Example' do
+  pod 'GGSuperImages', :path => '../'
+
+  target 'GGSuperImages_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
