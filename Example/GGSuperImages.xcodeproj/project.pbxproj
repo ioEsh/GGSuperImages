@@ -46,7 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9FA112782EB77B4086EDA115 /* Pods-GGSuperImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGSuperImages_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGSuperImages_Tests/Pods-GGSuperImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE034E95E9DE93C7A71EA112 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FE951F9EDF0E81D80D752EDF /* GGSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GGSuperImages.podspec; path = ../GGSuperImages.podspec; sourceTree = "<group>"; };
+		FE951F9EDF0E81D80D752EDF /* GGSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GGSuperImages.podspec; path = ../GGSuperImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -565,6 +565,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGSuperImages_Example.app/GGSuperImages_Example";
 			};
 			name = Debug;
 		};
@@ -583,6 +584,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGSuperImages_Example.app/GGSuperImages_Example";
 			};
 			name = Release;
 		};
