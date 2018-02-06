@@ -1,0 +1,6 @@
+framework module Pods_GGSuperImages_Example {
+  umbrella header "Pods-GGSuperImages_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

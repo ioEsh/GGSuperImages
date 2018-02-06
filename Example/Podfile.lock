@@ -1,0 +1,16 @@
+PODS:
+  - GGSuperImages (0.1.0)
+
+DEPENDENCIES:
+  - GGSuperImages (from `../`)
+
+EXTERNAL SOURCES:
+  GGSuperImages:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GGSuperImages: f183be593d0833495b082fccc9538e32d50bd561
+
+PODFILE CHECKSUM: be50fd156a7f8e2e6a330d4ca4c09f5bde7b20f5
+
+COCOAPODS: 1.4.0
